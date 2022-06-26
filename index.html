@@ -4,59 +4,78 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Blended 1</title>
 </head>
 <body>
     <!-- Header -->
-<header>
-    <a href="#">Britlex</a>
+<header class="header">
+    <a class="link logo" href="#">Brit<span class="accent">lex</span></a>
     <nav>
-    <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">Skills</a></li>
-        <li><a href="">About Us</a></li>
-        <li><a href="">Pricing</a></li>
-        <li><a href="">Contact Us</a></li>
-    </ul>
-</nav>
-    <button type="button">Let's Talk</button>
+     <ul class="list nav-list">
+        <li><a class="link nav-link" href="#">Home</a></li>
+        <li><a class="link nav-link" href="#">Skills</a></li>
+        <li><a class="link nav-link" href="#">About Us</a></li>
+        <li><a class="link nav-link" href="#">Pricing</a></li>
+        <li><a class="link nav-link" href="#">Contact Us</a></li>
+     </ul>
+    </nav>
+    <button class="button header-btn" type="button">Let's Talk</button>
 </header>
     <!-- Hero -->
-<section>
-    <h1>Learn Any Foreign Language</h1>
-    <p>With our teachers who write a program for
+<section class="section">
+    <h1 class="hero-title">Learn Any Foreign Language</h1>
+    <p class="hero-description">
+        With our teachers who write a program for
     each student, you will be able to make your
-    first sketch after the first lesson.</p>
-    <button type="button">Get started</button>
-    <img src="./images/Hero/Hero.png" alt="hero image" width="600" height="600">
+    first sketch after the first lesson.
+</p>
+    <button class="button hero-btn" type="button">Get started</button>
+    <img class="hero-img" src="./images/Hero/Hero.png" alt="hero image" width="660" height="660">
 </section>
     <!-- Skills -->
-<section>
-    <h2></h2>
-    <ul>
-        <li>
-            <img src="" alt="">
-            <h3></h3>
-            <p></p>
-            <button type="button"></button>
+<section class="section">
+    <h2 class="section-title">Skills <span class="visually-hidden">Skills2</span></h2>
+    <ul class="list skills-list">
+        <li class="skills-item card-one">
+            <img src="./images/skills/Shared goals-bro 1.png" alt="card image" width="390">
+            <h3 class="skills-title">Speaking</h3>
+            <p class="skills-text">
+                Improve your English skills and confidence. Live classes and interactive lessons online.
+            20% extra free for a limited time only Learn English online and improve your skills
+            through our high-quality courses and resources - all designed for adult language
+            learners.</p>
+            <button class="button skills-btn" type="button">Learn more</button>
         </li>
-        <li>
-            <img src="" alt="">
-            <h3></h3>
-            <p></p>
-            <button type="button"></button>
+        <li class="skills-item card-two">
+            <img src="./images/skills/Shared goals-bro 1.png" alt="card image" width="293">
+            <h3 class="skills-title">Writing</h3>
+            <p class="skills-text">
+                One of the most important and extensive areas of natural science, the science that
+            studies substances, also their composition</p>
+            <button class="button skills-btn" type="button">Learn more</button>
         </li>
-        <li>
-            <img src="" alt="">
-            <h3></h3>
-            <p></p>
-            <button type="button"></button>
+        <li class="skills-item card-three">
+            <img src="./images/skills/Shared goals-bro 1.png" alt="card image" width="370">
+            <h3 class="skills-title">Reading</h3>
+            <p class="skills-text">
+                perception and response actions of the user resulting from the use and/or upcoming use
+            of the product, system or service</p>
+            <button class="button skills-btn" type="button">Learn more</button>
         </li>
-        <li>
-            <img src="" alt="">
-            <h3></h3>
-            <p></p>
-            <button type="button"></button>
+        <li class="skills-item card-four">
+            <img src="./images/skills/Shared goals-bro 1.png" alt="card image" width="382">
+            <h3 class="skills-title">Listening</h3>
+            <p class="skills-text">
+                Here you can find activities to practise your listening skills. Listening will help you
+            to improve your understanding</p>
+            <button class="button skills-btn" type="button">Learn more</button>
         </li>
     </ul>
 </section>
